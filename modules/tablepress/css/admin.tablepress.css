@@ -1,0 +1,209 @@
+#tbpComparisonEditTabs .tbpOptTxtCheck {
+	width: calc(100% - 25px);
+}
+#tbpComparisonEditTabs a.nav-tab {
+	cursor: pointer;
+}
+.tbpTabContent section {
+	padding-bottom: 20px;
+}
+.supsystic-plugin fieldset, .tbpPopupOptRow {
+	margin-bottom: 10px;
+}
+#supsystic-breadcrumbs .button,
+#supsystic-breadcrumbs *:not(.fa) {
+	height: 30px; 
+	line-height: 26px;
+}
+#supsystic-breadcrumbs.supsystic-sticky {
+	background-color: #f1f1f1;
+	width: 100%;
+}
+.wp-picker-container {
+	min-width: 120px;
+	white-space: nowrap;
+}
+.tbpIcon li{
+	display: inline;
+	cursor: pointer;
+}
+.tbpIcon li img{
+	width: 35px;
+	height: 35px;
+	padding: 2px;
+}
+.tbpIcon li.active img{
+	border: 1px solid black;
+}
+.tbpAdminTitle{
+	display: block;
+}
+.tbpAdminTitlePro{
+	font-size: 10px;
+}
+.tbpProTitleWrapp{
+	display: inline-block;
+	/*width: 100px;*/
+}
+.tbpFreeTitleWrapp{
+	display: inline-block;
+	/*width: 100px;*/
+}
+.tbpTableSettingsRightPart .tbpProTitleWrapp{
+	display: inline-block;
+	/*width: 130px;*/
+}
+.tbpTableSettingsRightPart .tbpFreeTitleWrapp{
+	display: inline-block;
+	/*width: 130px;*/
+}
+.form-table .tbpProTitleWrapp{
+	display: inline-block;
+	/*width: 130px;*/
+}
+.form-table .tbpFreeTitleWrapp{
+	display: inline-block;
+	/*width: 130px;*/
+}
+.tbpPro select, .tbpPro input, .tbpPro label{
+	vertical-align: top;
+}
+.tbpSettings{
+	margin: 5px;
+}
+.tbpDisabled input,
+.tbpDisabled select,
+.tbpDisabled label,
+.tbpDisabled .tbpProTitleWrapp,
+.tbpDisabled .wp-picker-container,
+.tbpDisabled .wp-color-result,
+.tbpDisabled .iCheck-helper{
+	background: rgba(255,255,255,.5)!important;
+	border-color: rgba(222,222,222,.75)!important;
+	color: rgba(51,51,51,.5)!important;
+	cursor: not-allowed;
+}
+.tbpDisabled .wp-color-result:after{
+	color: rgba(51,51,51,.5)!important;
+}
+#tbpCreateComparisonForm label h3{
+	margin: 0!important;
+	margin-right: 10px!important;
+}
+.tbpSwapImg{
+	max-width: 100px;
+	cursor: pointer;
+}
+.wp-picker-container{display: inline;}
+
+.tbpMarkerWrappEmpty{display: none;}
+.add-single-img{
+	/*max-height: 150px;*/
+	/*min-height: 150px;*/
+}
+.tbpImg .button{
+	display: block;
+	width: 100%;
+}
+.tbpLeftImgBorder{
+	border-left: 1px solid #6d6d71;
+}
+.tbpShortcodeWrapp{
+	margin-top: 10px;
+}
+.tbpShortcode{
+	padding: 10px;
+	font-weight: 800;
+}
+.tbpShortcode input{
+	padding: 10px;
+	font-weight: normal;
+	cursor: pointer;
+}
+#additionalPrewiew{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.tbpSettings{
+	font-size: 12px;
+	font-weight: normal!important;
+}
+.tbpSettings span{
+	font-size: 12px;
+	font-weight: normal!important;
+}
+.tbpSettings span.tbpAdminTitlePro{
+	font-size: 9px;
+	font-weight: normal!important;
+}
+.tbpSettings input, .tbpSettings select, .tbpSettings label {
+	font-size: 12px;
+	font-weight: normal!important;
+}
+#prewiew .tbp-slider-wrapper{
+	max-width:700px;
+}
+#tbpComparisonEditForm img.add-single-img{
+	width: auto;
+	height: 150px;
+}
+#tbpComparisonEditForm .tbpImg{
+	overflow-x: hidden;
+}
+#tbpFieldIconsShell li a{
+	color: black;
+}
+#tbpFieldIconsShell li a:hover, #tbpFieldIconsShell li a.active {
+	color: #4ae8ea;
+}
+.ui-dialog { z-index: 99999 !important ;}
+.tbpImg{
+	margin: 0 auto;
+	text-align: center;
+}
+#tbpComparisonEditForm .tbpImg .button:active{
+	-webkit-transform: none!important;
+	transform: none!important;
+}
+.form-table th {
+	vertical-align: middle;
+}
+.supsystic-plugin .form-table th {
+	font-size: 12px;
+}
+.tbpPointsWrapper input{
+	max-width: 92px;
+}
+.tbpSettingsCol button{
+	font-size:13px!important;
+}
+.tbpSettingsCol .wp-color-result{
+	max-width: 75px;
+}
+.tbpSettingsCol .wp-color-result-text{
+	overflow-x: hidden;
+}
+.tbpSettingsCol select{
+	max-width: 75px;
+	font-size: 11px;
+}
+.tbpSettingsCol label{
+	font-weight: normal;
+}
+.tbpHidden{
+	display: none;
+}
+.iris-picker{
+	z-index: 2;
+}
+.wp-picker-holder{
+	position: absolute;
+	left: -20px;
+}
+.wp-picker-default{
+	display: none!important;
+}
+#tbpComparisonEditForm .wp-picker-container a{
+	overflow-x: hidden;
+}
+
